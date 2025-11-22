@@ -48,34 +48,33 @@ Dicas e resolução de problemas
 -----------------------------
 ## Dicionário de dados
 
-| Coluna                     | Tipo     | Descrição                                                                                   |
-|---------------------------|----------|---------------------------------------------------------------------------------------------|
-| ID                        | String   | Identificador único do dado                                                                 |
-| Customer_ID               | String   | Identificador do cliente                                                                    |
-| Month                     | String   | Mês de referência                                                                           |
-| Name                      | String   | Nome do cliente                                                                             |
-| SSN                       | String   | Social security number do cliente                                                           |
-| Age                       | Número   | Idade da pessoa                                                                             |
-| Occupation                | String   | Profissão da pessoa                                                                         |
-| Annual_Income             | Número   | Renda anual do cliente                                                                      |
-| Monthly_Inhand_Salary     | Número   | Salário líquido mensal do cliente                                                           |
-| Num_Bank_Accounts         | Número   | Quantidade de contas bancárias que o cliente possui                                         |
-| Num_Credit_Card           | Número   | Quantidade de cartões de crédito ativos                                                     |
-| Interest_Rate             | Número   | Taxa média de juros aplicada aos empréstimos                                                |
-| Num_of_Loan               | Número   | Quantidade total de empréstimos ativos                                                      |
-| Type_of_Loan              | String   | Tipos de empréstimo que o cliente possui                                                    |
-| Delay_from_due_date       | Número   | Dias de atraso além do vencimento                                                           |
-| Num_of_Delayed_Payment    | Número   | Número total de pagamentos atrasados                                                        |
-| Changed_Credit_Limit      | Número   | Porcentagem do limite de crédito alterado                                                   |
-| Num_Credit_Inquiries      | Número   | Quantidade de consultas de crédito recentes                                                 |
-| Credit_Mix                | String   | Distribuição dos tipos de crédito usados                                                    |
-| Outstanding_Debt          | Número   | Dívida pendente total                                                                       |
-| Credit_Utilization_Ratio  | Número   | Percentual de utilização do limite de crédito                                               |
-| Credit_History_Age        | String   | Tempo total de histórico de crédito                                                         |
-| Payment_of_Min_Amount     | String   | Indica se o cliente paga apenas o valor mínimo (Yes/No/Other)                               |
-| Total_EMI_per_month       | Número   | Soma das parcelas mensais (EMIs) que o cliente paga                                         |
-| Amount_invested_monthly   | Número   | Total investido mensalmente pelo cliente                                                    |
-| Payment_Behaviour         | String   | Padrão de pagamento do cliente                                                              |
-| Monthly_Balance           | Número   | Saldo médio mensal na conta                                                                 |
-| Credit_Score              | String   | Classificação do crédito                                                                    |
-
+| Coluna                   | Tipo   | Descrição                                                       | Natureza da Variável                                   |
+| ------------------------ | ------ | --------------------------------------------------------------- | ------------------------------------------------------ |
+| ID                       | String | Identificador único do dado                                     | Categórica nominal                                     |
+| Customer_ID              | String | Identificador do cliente                                        | Categórica nominal                                     |
+| Month                    | String | Mês de referência                                               | Categórica ordinal                                     |
+| Name                     | String | Nome do cliente                                                 | Categórica nominal                                     |
+| SSN                      | String | Social security number do cliente                               | Categórica nominal                                     |
+| Age                      | Número | Idade da pessoa                                                 | Numérica discreta                                      |
+| Occupation               | String | Profissão da pessoa                                             | Categórica nominal                                     |
+| Annual_Income            | Número | Renda anual do cliente                                          | Numérica contínua                                      |
+| Monthly_Inhand_Salary    | Número | Salário líquido mensal                                          | Numérica contínua                                      |
+| Num_Bank_Accounts        | Número | Quantidade de contas bancárias                                  | Numérica discreta                                      |
+| Num_Credit_Card          | Número | Quantidade de cartões de crédito                                | Numérica discreta                                      |
+| Interest_Rate            | Número | Taxa média de juros                                             | Numérica contínua                                      |
+| Num_of_Loan              | Número | Quantidade total de empréstimos                                 | Numérica discreta                                      |
+| Type_of_Loan             | String | Tipos de empréstimo                                             | Categórica nominal                                     |
+| Delay_from_due_date      | Número | Dias de atraso                                                  | Numérica discreta                                      |
+| Num_of_Delayed_Payment   | Número | Número de pagamentos atrasados                                  | Numérica discreta                                      |
+| Changed_Credit_Limit     | Número | Percentual do limite de crédito alterado                        | Numérica contínua                                      |
+| Num_Credit_Inquiries     | Número | Quantidade de consultas de crédito                              | Numérica discreta                                      |
+| Credit_Mix               | String | Distribuição dos tipos de crédito                               | Categórica ordinal                                     |
+| Outstanding_Debt         | Número | Dívida pendente total                                           | Numérica contínua                                      |
+| Credit_Utilization_Ratio | Número | Percentual de uso do crédito                                    | Numérica contínua                                      |
+| Credit_History_Age       | String | Tempo total de histórico de crédito                             | Categórica ordinal                                     |
+| Payment_of_Min_Amount    | String | Indica se o cliente paga o mínimo                               | Categórica ordinal                                     |
+| Total_EMI_per_month      | Número | Soma das parcelas mensais                                       | Numérica contínua                                      |
+| Amount_invested_monthly  | Número | Total investido mensalmente                                     | Numérica contínua                                      |
+| Payment_Behaviour        | String | Padrão de pagamento                                             | Categórica nominal                                     |
+| Monthly_Balance          | Número | Saldo médio mensal                                              | Numérica contínua                                      |
+| Credit_Score             | String | Classificação do crédito                                        | Categórica ordinal                                     |
